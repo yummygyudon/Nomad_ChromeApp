@@ -57,3 +57,21 @@ if (isNaN(age)) {
   console.log("Your age is "+age) ;
 }
 */
+
+/*
+EventListener 사용해보기
+const title = document.querySelector("div.hello:first-child h1") ;
+function handleTitClick(){
+  title.style.color = "red" ;
+}
+function handleMouseEnter(){
+  title.innerHTML = "Mouse In!" ;
+}
+function handleMouseLeave(){
+  title.innerHTML = "Mouse Out!" ;
+}
+
+title.addEventListener("click", handleTitClick);
+title.addEventListener("mouseenter", handleMouseEnter);
+title.addEventListener("mouseleave", handleMouseLeave);
+*/
